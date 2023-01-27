@@ -1,0 +1,28 @@
+@startuml
+title MYGame 
+
+class Game{
+    -int count
+    -int speed
+    -bool live
+}
+
+class Player{
+    -int x
+    -int Y
+    -color blue
+
+    -void move() 
+        
+    
+    
+}
+
+class Place{
+    -int height 
+    -int weight
+
+}
+Player -> Game
+Place -> Game
+@enduml
