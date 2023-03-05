@@ -1,0 +1,12 @@
+export 'screens/startup/screen.dart';
+export 'screens/sign_in/screen.dart';
+export 'screens/sign_up/screen.dart';
+export 'screens/my_goals/screen.dart';
+export 'screens/goal/screen.dart';
+export 'screens/profile/screen.dart';
+export 'screens/activity/screen.dart';
+export 'screens/feed/screen.dart';
+export 'screens/subscriptions/screen.dart';
+export 'screens/drawer/screen.dart';
+export 'screens/search_user/screen.dart';
+export 'screens/post/screen.dart';
