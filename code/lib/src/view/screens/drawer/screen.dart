@@ -107,7 +107,7 @@ class _AuthorizedHeader extends StatelessWidget {
       ),
       child: Row(
         children: [
-          UserAvatar(userInfo: userInfo),
+          UserAvatar(userInfo: userInfo, image: Image.asset("D:/Diplom/D/application/code/assets/images/2.png",fit:BoxFit.fill),),
           const SizedBox(width: 20),
           Expanded(
             child: Column(

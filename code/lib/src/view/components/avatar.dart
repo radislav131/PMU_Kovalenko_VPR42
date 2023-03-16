@@ -12,6 +12,8 @@ class UserAvatar extends StatelessWidget {
   final Color? abbrBackgroundColor;
   final bool isBoldAbbr;
   final bool isBordered;
+  final Image image;
+
 
   const UserAvatar({
     Key? key,
@@ -21,6 +23,7 @@ class UserAvatar extends StatelessWidget {
     this.abbrBackgroundColor,
     this.isBoldAbbr = true,
     this.isBordered = false,
+    required this.image
   }) : super(key: key);
 
   @override
@@ -28,7 +31,7 @@ class UserAvatar extends StatelessWidget {
     if (userInfo.avatarUrl != null) {
       return ImageAvatar(
         radius: radius,
-        imageUrl: userInfo.avatarUrl!,
+        image: Image.asset("D:/Diplom/D/application/code/assets/images/2.png"),
       );
     }
     return AbbrCircleAvatar(
@@ -48,12 +51,12 @@ class UserAvatar extends StatelessWidget {
 }
 
 class ImageAvatar extends StatelessWidget {
-  final String imageUrl;
+  final Image image;
   final double radius;
 
   const ImageAvatar({
     Key? key,
-    required this.imageUrl,
+    required this.image,
     this.radius = 24,
   }) : super(key: key);
 
@@ -62,7 +65,7 @@ class ImageAvatar extends StatelessWidget {
     return CircleAvatar(
       radius: radius,
       backgroundColor: AppColors.onPrimary[-10],
-      backgroundImage: NetworkImage(imageUrl),
+      backgroundImage: AssetImage("D:/Diplom/D/application/code/assets/images/2.png"),
     );
   }
 }

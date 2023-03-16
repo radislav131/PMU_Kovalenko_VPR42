@@ -47,7 +47,7 @@ class _ProfileInfo extends StatelessWidget {
           radius: avatarRadius,
           abbrColor: AppColors.onPrimary[-10],
           abbrBackgroundColor: AppColors.primary,
-          isBoldAbbr: false,
+          isBoldAbbr: false, image: Image.asset("D:/Diplom/D/application/code/assets/images/2.png",fit:BoxFit.fill),
         ),
         const SizedBox(height: 12),
         Text(

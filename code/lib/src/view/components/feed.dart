@@ -61,7 +61,7 @@ class _FeedPostState extends State<FeedPost> {
                     UserAvatar(
                       userInfo: author,
                       radius: _avatarRadius,
-                      isBordered: true,
+                      isBordered: true, image: Image.asset("D:/Diplom/D/application/code/assets/images/2.png",fit:BoxFit.fill),
                     ),
                     const SizedBox(width: 12),
                     Expanded(

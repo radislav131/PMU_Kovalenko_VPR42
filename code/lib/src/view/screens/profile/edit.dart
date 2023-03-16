@@ -35,6 +35,7 @@ class EditProfileComponent extends StatelessWidget {
               abbrColor: AppColors.onPrimary[-10],
               abbrBackgroundColor: AppColors.primary,
               isBoldAbbr: false,
+              image: Image.asset("D:/Diplom/D/application/code/assets/images/2.png")
             ),
             const SizedBox(height: 12),
             Text(
